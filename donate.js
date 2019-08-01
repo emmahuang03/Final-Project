@@ -12,6 +12,7 @@ function enter(){
   var don3 = $('.don3').val();
   var answer = $('.answer');
   var body = $('body');
+  var all = $('.all');
 
   if(names.length == 0) {
     answer.text("Something is missing. Please go back and fill it again.");
@@ -20,6 +21,6 @@ function enter(){
   } else if ($('.don1').prop("checked") == false && $('.don2').prop("checked") == false && $('.don3').prop("checked") == false){
     answer.text("Something is missing. Please go back and fill it again.");
   } else {
-    body.text("Thank you! We will contact you soon.");
+    all.text("Thank you! We will contact you soon.");
   }
 }
