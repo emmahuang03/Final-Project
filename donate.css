@@ -1,69 +1,61 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
- <head>
-   <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+* {
+ font-family: 'Inconsolata', monospace;
+}
 
-   <meta charset="utf-8">
-   <link rel="stylesheet" type="text/css" href="./donate.css">
-   <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
-   <title>[MET.] Donate</title>
- </head>
- <body>
-  <div class="top">
-      <h1>[MET.]</h1>
-    </div>
-    <h2>Minorities Exploring Technology</h2>
-    <div class="items">
-   <div class="container">
-     <img src="https://lh3.googleusercontent.com/1LVTG0Flcpc4u3EJXLesoZ20O38AcXJP4V-3c75JD2Tpo8P_F_JpkZ-bV0NSLSgBarfIxV5lDfMSIogToUClGglZNZuFeAE-QlH6jUilldVxep-q2GdCzdM0EHhiu-XEi5u1FIbo" alt="Computer" style="width:100%;">
-   </div>
-   <!-- <div class="dropdown">
-       <button class="dropbtn"><strong>[MENU]</strong></button>
-       <div class="dropdown-content">
-         <div class="tab">
-           <a href="https://www.google.com">College Students</a>
-         </div>
-         <div class="tab">
-           <a href="https://www.google.com">High School Students</a>
-         </div>
-         <div class="tab">
-           <a href="https://www.google.com">Middle School Students</a>
-         </div>
-         <div class="tab">
-           <a href="https://www.google.com">Donate</a>
-         </div>
-         <div class="tab">
-           <a href="https://www.google.com">Join Us</a>
-         </div>
-       </div>
-    </div> -->
-   <div class = "all">
-     <div class = "name">
-       <h4>[What is your name?]</h4>
-       <input class = "names" type = "text" placeholder = "Enter your name">
-     </div>
-     <div class = "donate">
-       <h4>[What are you donating today?]</h4>
-       <p><input class = "don1" type = "checkbox">Food</p>
-       <p><input class = "don2" type = "checkbox"></input>Money</p>
-       <p><input class = "don3" type = "checkbox"></input>Computers</p>
-     </div>
-     <div class = "organization">
-       <h4>[Which organization would you like to donate to?]</h4>
-       <p><input class = "org1" type = "checkbox"></input>WeWork</p>
-       <p><input class = "org2" type = "checkbox"></input>Microsoft</p>
-       <p><input class = "org3" type = "checkbox"></input>Amazon</p>
-     </div>
-     <div class = "questions">
-       <h3>[Any questions or concerns?]</h3>
-       <input type = "text" placeholder="Any questions or concerns?">
-     </div>
-     <div class = "submit">
-       <button type = "submit">Submit</button>
-     </div>
-     <p class = "answer"></p>
-   </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-   <script type="text/javascript" src="./donate.js"></script>
- </body>
-</html>
+.answer {
+ margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    background-color: #FFAE52;
+    margin: 0px 0px 10px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.top {
+  border: 3px black solid;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 1.25in;
+  font-size: 50px;
+  margin-bottom: 0;
+  background-color: #2789B3;
+  color: white;
+}
+
+.all {
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+body {
+ background-color: white;
+ margin-top: 50px;
+ color: #2789b3;
+}
+h1{
+ font-family: 'Inconsolata', monospace;
+ font-size: 50px;
+}
+h4{
+ font-size: 20px;
+}
+
+img{
+ object-fit: cover;
+ width: 100%;
+ height: 3in;
+ margin: 0px;
+ padding: 0px;
+ display: flex;
+ flex-wrap: wrap;
+}
