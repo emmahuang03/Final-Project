@@ -1,6 +1,5 @@
 * {
  font-family: 'Inconsolata', monospace;
-
 }
 
 .answer {
@@ -11,6 +10,10 @@
   margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 body {
